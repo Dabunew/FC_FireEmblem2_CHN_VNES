@@ -1,0 +1,150 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VirtuaNES - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/VirtuaNES.res" /d "NDEBUG" "D:\VNesFE2\VirtuaNES.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A5.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "Zlib" /I "." /I "NES" /I "NES\Mapper" /I "NES\ApuEx" /I "NES\ApuEx\emu2413" /I "NES\PadEx" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/VirtuaNES.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\VNesFE2\AboutDlg.cpp"
+"D:\VNesFE2\App.cpp"
+"D:\VNesFE2\Archive.cpp"
+"D:\VNesFE2\CheatDlg.cpp"
+"D:\VNesFE2\Com.cpp"
+"D:\VNesFE2\Config.cpp"
+"D:\VNesFE2\ControllerDlg.cpp"
+"D:\VNesFE2\Crclib.cpp"
+"D:\VNesFE2\DirectDraw.cpp"
+"D:\VNesFE2\DirectInput.cpp"
+"D:\VNesFE2\DirectSound.cpp"
+"D:\VNesFE2\EmulatorDlg.cpp"
+"D:\VNesFE2\EmuThread.cpp"
+"D:\VNesFE2\GameOptionDlg.cpp"
+"D:\VNesFE2\GraphicsDlg.cpp"
+"D:\VNesFE2\MainFrame.cpp"
+"D:\VNesFE2\MMTimer.cpp"
+"D:\VNesFE2\MovieDlg.cpp"
+"D:\VNesFE2\MovieInfoDlg.cpp"
+"D:\VNesFE2\Pathlib.cpp"
+"D:\VNesFE2\Plugin.cpp"
+"D:\VNesFE2\Recent.cpp"
+"D:\VNesFE2\Registry.cpp"
+"D:\VNesFE2\ShortcutDlg.cpp"
+"D:\VNesFE2\SoundDlg.cpp"
+"D:\VNesFE2\WaveRec.cpp"
+"D:\VNesFE2\WinMain.cpp"
+"D:\VNesFE2\Wnd.cpp"
+"D:\VNesFE2\WndHook.cpp"
+"D:\VNesFE2\NES\Mapper\Mapper.cpp"
+"D:\VNesFE2\NES\ApuEX\APU_INTERNAL.cpp"
+"D:\VNesFE2\NES\APU.cpp"
+"D:\VNesFE2\NES\Cpu.cpp"
+"D:\VNesFE2\NES\MMU.cpp"
+"D:\VNesFE2\NES\Nes.cpp"
+"D:\VNesFE2\NES\PAD.cpp"
+"D:\VNesFE2\NES\PPU.cpp"
+"D:\VNesFE2\NES\ROM.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A5.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib winmm.lib comctl32.lib imm32.lib dinput.lib shlwapi.lib /nologo /subsystem:windows /incremental:no /pdb:"Ê¥»ð»ÕÕÂÍâ´«.pdb" /map:"Release/Ê¥»ð»ÕÕÂÍâ´«.map" /machine:I386 /out:"Ê¥»ð»ÕÕÂÍâ´«.exe" 
+.\Release\AboutDlg.obj
+.\Release\App.obj
+.\Release\Archive.obj
+.\Release\CheatDlg.obj
+.\Release\Com.obj
+.\Release\Config.obj
+.\Release\ControllerDlg.obj
+.\Release\Crclib.obj
+.\Release\DirectDraw.obj
+.\Release\DirectInput.obj
+.\Release\DirectSound.obj
+.\Release\EmulatorDlg.obj
+.\Release\EmuThread.obj
+.\Release\GameOptionDlg.obj
+.\Release\GraphicsDlg.obj
+.\Release\MainFrame.obj
+.\Release\MMTimer.obj
+.\Release\MovieDlg.obj
+.\Release\MovieInfoDlg.obj
+.\Release\Pathlib.obj
+.\Release\Plugin.obj
+.\Release\Recent.obj
+.\Release\Registry.obj
+.\Release\ShortcutDlg.obj
+.\Release\SoundDlg.obj
+.\Release\WaveRec.obj
+.\Release\WinMain.obj
+.\Release\Wnd.obj
+.\Release\WndHook.obj
+.\Release\Mapper.obj
+.\Release\APU_INTERNAL.obj
+.\Release\APU.obj
+.\Release\Cpu.obj
+.\Release\MMU.obj
+.\Release\Nes.obj
+.\Release\PAD.obj
+.\Release\PPU.obj
+.\Release\ROM.obj
+.\Release\VirtuaNES.res
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1A6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+AboutDlg.cpp
+App.cpp
+Archive.cpp
+CheatDlg.cpp
+Com.cpp
+Config.cpp
+ControllerDlg.cpp
+Crclib.cpp
+DirectDraw.cpp
+DirectInput.cpp
+DirectSound.cpp
+EmulatorDlg.cpp
+EmuThread.cpp
+GameOptionDlg.cpp
+GraphicsDlg.cpp
+MainFrame.cpp
+MMTimer.cpp
+MovieDlg.cpp
+MovieInfoDlg.cpp
+Pathlib.cpp
+Plugin.cpp
+Recent.cpp
+Registry.cpp
+ShortcutDlg.cpp
+SoundDlg.cpp
+WaveRec.cpp
+WinMain.cpp
+Wnd.cpp
+WndHook.cpp
+Mapper.cpp
+APU_INTERNAL.cpp
+APU.cpp
+Cpu.cpp
+MMU.cpp
+Nes.cpp
+D:\VNesFE2\NES\Nes.cpp(877) : warning C4101: 'str' : unreferenced local variable
+D:\VNesFE2\NES\Nes.cpp(1165) : warning C4101: 'str' : unreferenced local variable
+D:\VNesFE2\NES\Nes.cpp(1234) : warning C4101: 'str' : unreferenced local variable
+PAD.cpp
+PPU.cpp
+ROM.cpp
+Linking...
+LINK : warning LNK4089: all references to "ADVAPI32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+Ê¥»ð»ÕÕÂÍâ´«.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

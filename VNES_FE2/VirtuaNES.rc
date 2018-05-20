@@ -1,0 +1,1099 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+#include "virtuanesres.h"
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Japanese resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "#include ""virtuanesres.h""\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "VirtuaNES.ico"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,0,6,7
+ PRODUCTVERSION 0,0,6,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", " \0"
+            VALUE "FileDescription", "VirtuaNES NES emulator for Win32\0"
+            VALUE "FileVersion", "0.67\0"
+            VALUE "InternalName", "VirtuaNES\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001-2002 Norix\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "VirtuaNES.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "VirtuaNES NES emulator for Win32\0"
+            VALUE "ProductVersion", "0.67\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Japanese resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "系统完成: 宣云.张晓波\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "模拟器+ROM一体系统之圣火徽章外传\0"
+            VALUE "FileVersion", "1.00\0"
+            VALUE "InternalName", "圣火徽章外传简体中文版\0"
+            VALUE "LegalCopyright", "版权所有(C) 2002 宣云.张晓波\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "圣火徽章外传简体中文版\0"
+            VALUE "ProductVersion", "1.00\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+501 MENU FIXED IMPURE 
+BEGIN
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "NES 硬件编辑(&H)",            40962
+    END
+    POPUP "选项(&C)"
+    BEGIN
+        MENUITEM "文件夹列表(&F)",              40960
+        MENUITEM "自定义栏目(&D)",              40961
+    END
+    MENUITEM "更新(&R)",                    40963
+END
+
+110 MENU FIXED IMPURE 
+BEGIN
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "HW 重置(&R)",                 33024
+        MENUITEM "SW 重置(&S)",                 33025
+        MENUITEM SEPARATOR
+        MENUITEM "暂停(&P)",                    33026
+        MENUITEM SEPARATOR
+        MENUITEM "即时读档",                    33027
+        MENUITEM "即时存档",                    33028
+        POPUP "切换存盘点"
+        BEGIN
+            MENUITEM "存盘点0",                     33040
+            MENUITEM "存盘点1",                     33041
+            MENUITEM "存盘点2",                     33042
+            MENUITEM "存盘点3",                     33043
+            MENUITEM "存盘点4",                     33044
+            MENUITEM "存盘点5",                     33045
+            MENUITEM "存盘点6",                     33046
+            MENUITEM "存盘点7",                     33047
+            MENUITEM "存盘点8",                     33048
+            MENUITEM "存盘点9",                     33049
+        END
+        MENUITEM SEPARATOR
+        POPUP "录象"
+        BEGIN
+            MENUITEM "重播(&P)",                    32994
+            MENUITEM SEPARATOR
+            MENUITEM "录制(&R)",                    32992
+            MENUITEM "附加(&A)",                    32993
+            MENUITEM SEPARATOR
+            MENUITEM "停止(&S)",                    32995
+            MENUITEM SEPARATOR
+            MENUITEM "信息(&I)",                    32996
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "截图(&Z)",                    36876
+        MENUITEM SEPARATOR
+        MENUITEM "屏幕字体(&F)",                50000
+    END
+    POPUP "选项(&C)"
+    BEGIN
+        MENUITEM "模拟器(&E)",                  33280
+        MENUITEM "图像(&G)",                    33281
+        MENUITEM "声音(&S)",                    33282
+        MENUITEM "控制器(&C)",                  33283
+        MENUITEM "快捷键(&K)",                  33284
+        MENUITEM "录像(&M)",                    33287
+        MENUITEM "游戏选项(&O)",                33288
+        MENUITEM SEPARATOR
+        MENUITEM "全屏幕模式",                  36867
+        POPUP "尺寸"
+        BEGIN
+            MENUITEM "x1",                          33312
+            MENUITEM "x2",                          33313
+            MENUITEM "x3",                          33314
+            MENUITEM "x4",                          33315
+        END
+        MENUITEM "总在最前",                    60000, CHECKED
+        MENUITEM SEPARATOR
+        MENUITEM "模拟 TV 屏幕外观",            36870
+        MENUITEM "显示帧数",                    36868
+    END
+    POPUP "工具(&T)"
+    BEGIN
+        MENUITEM "修改支持(&S)",                34816
+        MENUITEM "修改代码(&C)",                34817
+        MENUITEM SEPARATOR
+        MENUITEM "开启金手指(&E)",              34819
+        MENUITEM "关闭金手指(&D)",              34820
+        MENUITEM SEPARATOR
+        MENUITEM "金手指(&G)",                  34818
+    END
+    MENUITEM "关于(&A)",                    32896
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+603 DIALOG FIXED IMPURE  0, 0, 166, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "输入代码"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "修改代码",-1,5,5,45,10,SS_CENTERIMAGE
+    EDITTEXT        4300,5,15,155,12,ES_AUTOHSCROLL
+    LTEXT           "注释",-1,5,30,45,10,SS_CENTERIMAGE
+    EDITTEXT        4301,5,40,155,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",1,55,60,50,14
+    PUSHBUTTON      "取消",2,111,60,50,14
+END
+
+602 DIALOG FIXED IMPURE  0, 0, 221, 169
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "代码编辑"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,110,150,50,14
+    PUSHBUTTON      "取消",2,165,150,50,14
+    GROUPBOX        "",-1,5,0,210,55
+    RTEXT           "地址",-1,10,14,30,12,SS_CENTERIMAGE
+    EDITTEXT        4200,45,14,55,12,ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_TABSTOP
+    RTEXT           "数据",-1,115,14,30,12,SS_CENTERIMAGE
+    EDITTEXT        4201,150,14,55,12,ES_AUTOHSCROLL
+    RTEXT           "注释",-1,10,34,30,12,SS_CENTERIMAGE
+    EDITTEXT        4202,45,34,160,12,ES_AUTOHSCROLL
+    GROUPBOX        "基数",-1,5,60,60,40
+    CONTROL         "10进制",4203,"Button",BS_AUTORADIOBUTTON | WS_GROUP,10,
+                    70,40,10
+    CONTROL         "16进制",4204,"Button",BS_AUTORADIOBUTTON,10,85,40,10
+    GROUPBOX        "长度",-1,70,60,145,40
+    CONTROL         "1字节",4205,"Button",BS_AUTORADIOBUTTON | WS_GROUP,75,
+                    70,36,10
+    CONTROL         "2字节",4206,"Button",BS_AUTORADIOBUTTON,140,70,36,10
+    CONTROL         "3字节",4207,"Button",BS_AUTORADIOBUTTON,75,85,36,10
+    CONTROL         "4字节",4208,"Button",BS_AUTORADIOBUTTON,140,85,36,10
+    GROUPBOX        "类型",-1,5,105,210,40
+    CONTROL         "锁定",4209,"Button",BS_AUTORADIOBUTTON | WS_GROUP,10,
+                    115,95,10
+    CONTROL         "当次",4210,"Button",BS_AUTORADIOBUTTON,110,115,95,10
+    CONTROL         "增加",4211,"Button",BS_AUTORADIOBUTTON,10,130,95,10
+    CONTROL         "减少",4212,"Button",BS_AUTORADIOBUTTON,110,130,100,10
+END
+
+601 DIALOG FIXED IMPURE  0, 0, 226, 193
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改代码"
+FONT 9, "宋体"
+BEGIN
+    CONTROL         "List1",4101,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    WS_BORDER | WS_TABSTOP,5,5,215,125
+    PUSHBUTTON      "全部开启",4106,5,135,50,14
+    PUSHBUTTON      "全部关闭",4107,60,135,50,14
+    PUSHBUTTON      "全部删除",4108,115,135,50,14
+    PUSHBUTTON      "输入",4104,5,155,50,14
+    PUSHBUTTON      "编辑",4105,60,155,50,14
+    PUSHBUTTON      "载入",4102,170,135,50,14
+    PUSHBUTTON      "保存",4103,170,155,50,14
+    PUSHBUTTON      "删除",4109,115,155,50,14
+    DEFPUSHBUTTON   "确定",1,115,175,50,14
+    PUSHBUTTON      "取消",2,170,175,50,14
+END
+
+600 DIALOG FIXED IMPURE  0, 0, 346, 215
+STYLE DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "修改支持"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "搜索结果",-1,5,5,85,8,SS_CENTERIMAGE
+    CONTROL         "List1",4001,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    WS_BORDER | WS_TABSTOP,5,15,160,195
+    GROUPBOX        "基数",-1,170,5,50,55
+    CONTROL         "10进制",4002,"Button",BS_AUTORADIOBUTTON | WS_GROUP,175,
+                    20,40,10
+    CONTROL         "16进制",4003,"Button",BS_AUTORADIOBUTTON,175,40,40,10
+    GROUPBOX        "长度",-1,225,5,50,55
+    CONTROL         "1字节",4004,"Button",BS_AUTORADIOBUTTON | WS_GROUP,231,
+                    15,36,10
+    CONTROL         "2字节",4005,"Button",BS_AUTORADIOBUTTON,231,25,36,10
+    CONTROL         "3字节",4006,"Button",BS_AUTORADIOBUTTON,231,35,36,10
+    CONTROL         "4字节",4007,"Button",BS_AUTORADIOBUTTON,231,45,36,10
+    GROUPBOX        "范围",-1,280,5,60,55
+    CONTROL         "RAM",4008,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,285,15,
+                    50,10
+    CONTROL         "SRAM",4009,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,285,30,
+                    50,10
+    CONTROL         "EXRAM",4010,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,285,45,50,10
+    GROUPBOX        "搜索",-1,170,65,170,100
+    PUSHBUTTON      "开始",4011,175,75,50,14
+    PUSHBUTTON      "更新",4012,230,75,50,14
+    PUSHBUTTON      "释放",4013,285,75,50,14
+    PUSHBUTTON      "原始 = 当前",4014,175,95,50,14
+    PUSHBUTTON      "原始 < 当前",4017,230,95,50,14
+    PUSHBUTTON      "原始 <= 当前",4019,285,95,50,14
+    PUSHBUTTON      "原始 != 当前",4015,175,115,50,14
+    PUSHBUTTON      "原始 > 当前",4016,230,115,50,14
+    PUSHBUTTON      "原始 >= 当前",4018,285,115,50,14
+    LTEXT           "数据",-1,175,135,50,8,SS_CENTERIMAGE
+    EDITTEXT        4020,175,145,50,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "搜索",4021,230,144,50,14
+    GROUPBOX        "数据写入",-1,170,170,170,40
+    LTEXT           "地址",-1,175,180,50,8
+    EDITTEXT        4022,175,190,50,12,ES_AUTOHSCROLL
+    LTEXT           "数据",-1,230,180,50,8
+    EDITTEXT        4023,230,190,50,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "写入",4024,285,189,50,14
+END
+
+503 DIALOG FIXED IMPURE  0, 0, 147, 99
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NES 文件头编辑"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,38,81,50,14
+    DEFPUSHBUTTON   "取消",2,93,81,50,14
+    EDITTEXT        3200,30,5,20,12,ES_CENTER | ES_NUMBER
+    CONTROL         "VMIRROR",3201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,
+                    35,55,10
+    CONTROL         "SRAM",3202,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,35,
+                    55,10
+    CONTROL         "4 画面",3203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,
+                    55,55,10
+    CONTROL         "Trainer",3204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,
+                    55,55,10
+    CTEXT           "Mapper",-1,5,5,25,12,SS_CENTERIMAGE
+    GROUPBOX        "",-1,4,20,140,55
+END
+
+502 DIALOG FIXED IMPURE  0, 0, 162, 157
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "自定义栏目"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,50,140,50,14
+    PUSHBUTTON      "取消",2,105,140,50,14
+    LISTBOX         3100,4,20,56,95,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         3101,100,20,56,95,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "添加>>",3103,65,25,30,14
+    PUSHBUTTON      "<<删除",3102,65,55,30,14
+    PUSHBUTTON      "↑",3104,100,120,25,14
+    PUSHBUTTON      "↓",3105,130,120,25,14
+    CTEXT           "不显示",-1,5,5,55,10,SS_CENTERIMAGE
+    CTEXT           "显示",-1,100,5,55,10,SS_CENTERIMAGE
+END
+
+500 DIALOGEX 0, 0, 314, 225
+STYLE WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "控制台"
+MENU 501
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "List1",3000,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    WS_BORDER | WS_TABSTOP,0,0,314,225
+END
+
+402 DIALOG FIXED IMPURE  0, 0, 262, 101
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "控制器Ⅱ"
+FONT 9, "宋体"
+BEGIN
+    CTEXT           "----",2010,30,10,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2013,55,35,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2012,5,35,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2011,30,60,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2014,215,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2015,170,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2016,215,50,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2017,170,50,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2018,75,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2019,120,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2020,110,20,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "B",-1,170,70,40,8,SS_CENTERIMAGE
+    CTEXT           "A",-1,215,70,40,8,SS_CENTERIMAGE
+    CTEXT           "选择",-1,75,70,40,8,SS_CENTERIMAGE
+    CTEXT           "开始",-1,120,70,40,8,SS_CENTERIMAGE
+    CTEXT           "话筒",-1,110,10,40,8,SS_CENTERIMAGE
+    LISTBOX         2031,170,5,40,35,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         2030,215,5,40,35,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+401 DIALOG FIXED IMPURE  0, 0, 262, 101
+STYLE WS_CHILD | WS_CAPTION
+CAPTION "控制器Ⅰ"
+FONT 9, "宋体"
+BEGIN
+    CTEXT           "----",2010,30,10,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2013,55,35,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2012,5,35,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2011,30,60,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2014,215,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2015,170,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2016,215,50,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2017,170,50,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2018,75,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "----",2019,120,80,40,15,SS_NOTIFY | SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "B",-1,170,70,40,8,SS_CENTERIMAGE
+    CTEXT           "A",-1,215,70,40,8,SS_CENTERIMAGE
+    CTEXT           "选择",-1,75,70,40,8,SS_CENTERIMAGE
+    CTEXT           "开始",-1,120,70,40,8,SS_CENTERIMAGE
+    LISTBOX         2031,170,5,40,35,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    LISTBOX         2030,215,5,40,35,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+400 DIALOG FIXED IMPURE  0, 0, 282, 145
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "控制器配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,150,127,60,14
+    PUSHBUTTON      "取消",2,215,127,60,14
+    PUSHBUTTON      "默认",101,85,127,60,14
+    CONTROL         "Tab1",2000,"SysTabControl32",0x0,5,3,271,119
+    COMBOBOX        2001,5,128,70,42,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+350 DIALOG FIXED IMPURE  0, 0, 181, 109
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "游戏选项配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,70,90,50,14
+    PUSHBUTTON      "取消",2,125,90,50,14
+    COMBOBOX        1900,10,15,90,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        1902,115,15,55,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        1901,10,50,90,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "禁止跳帧中断",1903,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,70,105,10
+    PUSHBUTTON      "默认",101,15,90,50,14
+    GROUPBOX        "描绘",-1,5,5,100,30
+    GROUPBOX        "中断",-1,5,40,170,45
+    GROUPBOX        "视频模式",-1,110,5,65,30
+END
+
+306 DIALOG FIXED IMPURE  0, 0, 96, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "录象配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,10,105,32,14
+    PUSHBUTTON      "取消",2,55,105,32,14
+    CONTROL         "1P",1800,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,20,20,
+                    10
+    CONTROL         "2P",1801,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,40,20,20,
+                    10
+    GROUPBOX        "使用控制器",-1,4,5,86,35
+    CONTROL         "禁止录象功能",1804,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,64,10
+    CONTROL         "重放录象",1805,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    75,48,10
+    CONTROL         "重置后开始录像",1806,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,45,72,10
+    CONTROL         "显示手柄信息",1807,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,90,64,10
+END
+
+304 DIALOG FIXED IMPURE  0, 0, 241, 189
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "快捷键配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,130,170,50,14
+    PUSHBUTTON      "取消",2,185,170,50,14
+    PUSHBUTTON      "默认",101,75,170,50,14
+    CONTROL         "List1",1600,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | LVS_ALIGNLEFT | 
+                    WS_BORDER | WS_TABSTOP,5,5,230,160
+END
+
+302 DIALOG FIXED IMPURE  0, 0, 199, 249
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "声音配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,90,232,50,14
+    PUSHBUTTON      "取消",2,145,232,50,14
+    PUSHBUTTON      "默认",101,36,232,50,14
+    GROUPBOX        "普通",-1,4,5,191,75
+    CONTROL         "开启声音",1400,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    20,55,10
+    CTEXT           "采样率",-1,70,19,40,12,SS_CENTERIMAGE
+    CTEXT           "缓冲尺寸",-1,70,39,40,12,SS_CENTERIMAGE
+    CTEXT           "滤波器类型",-1,70,59,40,12,SS_CENTERIMAGE
+    COMBOBOX        1401,115,19,73,91,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        1402,115,39,73,91,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        1420,115,59,73,81,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "信道",-1,4,85,191,141
+    CTEXT           "主音量",-1,12,99,25,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",1403,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,13,107,23,54
+    CTEXT           "方波1",-1,42,99,25,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",1404,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,44,107,23,54
+    CTEXT           "方波2",-1,72,99,25,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",1405,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,73,107,23,54
+    CTEXT           "三角波",-1,102,99,25,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",1406,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,104,107,23,54
+    CTEXT           "杂音",-1,132,99,25,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",1407,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,133,107,23,54
+    CTEXT           "DPCM",-1,162,99,25,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",1408,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,164,107,23,54
+    CTEXT           "VRC6",-1,12,161,25,10,SS_CENTERIMAGE
+    CONTROL         "Slider1",1409,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,13,169,23,54
+    CONTROL         "Slider1",1410,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,44,169,23,54
+    CONTROL         "Slider1",1411,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,73,169,23,54
+    CONTROL         "Slider1",1412,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,104,169,23,54
+    CONTROL         "Slider1",1413,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,133,169,23,54
+    CONTROL         "Slider1",1414,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | TBS_BOTH | WS_TABSTOP,164,169,23,54
+    CTEXT           "VRC7",-1,42,161,25,10,SS_CENTERIMAGE
+    CTEXT           "FDS",-1,72,161,25,10,SS_CENTERIMAGE
+    CTEXT           "MMC5",-1,102,161,25,10,SS_CENTERIMAGE
+    CTEXT           "N106",-1,132,161,25,10,SS_CENTERIMAGE
+    CTEXT           "FME7",-1,162,161,25,10,SS_CENTERIMAGE
+END
+
+301 DIALOG FIXED IMPURE  0, 0, 219, 219
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "图像配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,110,200,50,14
+    PUSHBUTTON      "取消",2,165,200,50,14
+    PUSHBUTTON      "默认",101,55,200,50,14
+    CONTROL         "TV 外观纠正",1300,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    10,15,90,10
+    CONTROL         "显示帧数",1303,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    115,30,95,10
+    CONTROL         "显示 240 线",1302,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    10,30,90,10
+    CONTROL         "模仿 TV 显示模式(扫描线)",1305,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,45,95,10
+    CONTROL         "不限制前景",1301,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    10,45,90,10
+    CONTROL         "Slider1",1306,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,110,58,71,12
+    CONTROL         "模拟 TV 屏幕外观",1304,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,15,90,10
+    CONTROL         "双倍画面",1315,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    90,90,10
+    CONTROL         "使用系统内存",1314,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,90,90,10
+    CONTROL         "同步描绘",1311,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    135,70,10
+    COMBOBOX        1313,130,134,80,82,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "适应屏幕尺寸",1312,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,150,70,10
+    CONTROL         "",1308,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,180,8,
+                    10
+    EDITTEXT        1309,25,179,140,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "浏览",1310,170,178,37,14
+    GROUPBOX        "普通",-1,4,5,211,70
+    CTEXT           "",1307,182,58,25,12,SS_CENTERIMAGE | SS_SUNKEN
+    GROUPBOX        "调色板",-1,4,170,210,25
+    GROUPBOX        "全屏幕模式",-1,4,125,210,40
+    CTEXT           "分辨率",-1,87,135,38,10,SS_CENTERIMAGE
+    GROUPBOX        "DirectDraw",-1,4,80,211,40
+    CONTROL         "修剪屏幕左侧图像",1316,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,60,90,10
+    CONTROL         "使用 HEL",1317,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    105,90,10
+    CONTROL         "同步描绘(窗口)",1318,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,115,105,95,10
+END
+
+300 DIALOG FIXED IMPURE  0, 0, 219, 181
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "模拟器配置"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,108,158,50,14
+    PUSHBUTTON      "取消",2,165,158,50,14
+    PUSHBUTTON      "默认",101,50,158,50,14
+    GROUPBOX        "CPU 核心",-1,4,5,211,25
+    CONTROL         "忽略一些错误",1200,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,15,90,10
+    GROUPBOX        "跳帧控制",-1,4,35,211,42
+    CONTROL         "自动跳帧",1201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    45,65,10
+    CONTROL         "使用限制",1202,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    60,60,10
+    CONTROL         "Slider1",1203,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_TOP | WS_TABSTOP,75,51,105,21
+    CTEXT           "帧",-1,181,45,25,10,SS_CENTERIMAGE
+    CTEXT           "",1205,181,57,25,15,SS_CENTERIMAGE | SS_SUNKEN
+    GROUPBOX        "其他",-1,4,83,211,70
+    CONTROL         "禁止二次激活",1208,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,93,135,10
+    CONTROL         "效验存档/录像的 CRC",1211,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,10,123,130,10
+    CONTROL         "载入 ROM 后自动切换至全屏幕模式",1210,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,108,135,10
+    CONTROL         "后台工作",1206,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,10,
+                    138,95,10
+    LTEXT           "优先级",-1,110,138,30,10,SS_CENTERIMAGE
+    COMBOBOX        1204,145,136,62,75,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+220 DIALOG FIXED IMPURE  0, 0, 163, 125
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Movie Info"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,105,105,50,14
+    CTEXT           "Version",-1,5,25,65,14,SS_CENTERIMAGE
+    CTEXT           "Version",1150,75,25,80,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Frames",-1,5,45,65,14,SS_CENTERIMAGE
+    CTEXT           "Frames",1152,75,45,80,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Times",-1,5,65,65,14,SS_CENTERIMAGE
+    CTEXT           "Times",1151,75,65,80,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Rerecord Times",-1,5,85,65,14,SS_CENTERIMAGE
+    CTEXT           "RerecordTimes",1153,75,85,80,14,SS_CENTERIMAGE | 
+                    SS_SUNKEN
+    CTEXT           "Record version",-1,5,5,65,14,SS_CENTERIMAGE
+    CTEXT           "Version",1154,75,5,80,14,SS_CENTERIMAGE | SS_SUNKEN
+END
+
+200 DIALOG FIXED IMPURE  0, 0, 166, 161
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "关于EMU+ROM系统1.21版"
+FONT 9, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "确定",1,53,137,50,14
+    GROUPBOX        "",IDC_STATIC,6,0,154,157
+    LTEXT           " 本系统集成了汉化后的FC游戏“圣火徽章外传”的ROM以及可以直接运行它的模拟器。系统所采用的模拟器是VirtuaNES 0.681版本，中文菜单的原型由“原点工作室”提供。",
+                    IDC_STATIC,12,9,141,40
+    LTEXT           "系统完成：",IDC_STATIC,12,53,41,8
+    LTEXT           "张晓波(Pinocchio)  pinokio@sina.com",IDC_STATIC,12,88,
+                    141,8
+    LTEXT           "主页：http://pinokio.51.net",IDC_STATIC,12,99,109,8
+    LTEXT           "主页：http://c973.51.net",IDC_STATIC,12,75,97,8
+    LTEXT           "宣云(gdxuanyun)  gdxy1@sina.com ",IDC_STATIC,12,64,129,
+                    8
+    ICON            "",1001,130,128,20,20
+    LTEXT           " 本程序不得用于商业用途，详细版权说明请参阅VirtuaNES的说明文件。",
+                    IDC_STATIC,12,113,146,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    200, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 158
+        BOTTOMMARGIN, 145
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// ROM
+//
+
+IDR_FE2ROM              ROM     DISCARDABLE     "FE2chn.nes"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1792                    "修改代码"
+    1793                    "注释"
+    1794                    "地址"
+    1795                    "当前数值"
+    1796                    "原始数值"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1536                    "未连接."
+    1537                    "等候客户端连接."
+    1538                    "连接服务器."
+    1539                    "计算网络反应时间."
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1296                    "文件名"
+    1297                    "路径"
+    1298                    "Mapper"
+    1299                    "PRG"
+    1300                    "CHR"
+    1301                    "全部 CRC"
+    1302                    "PRG CRC"
+    1303                    "信息"
+    1304                    "DB 标记"
+    1305                    "标题"
+    1306                    "国家"
+    1307                    "厂商"
+    1308                    "出售日期"
+    1309                    "价格"
+    1310                    "类型"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1280                    "搜索中...(%d/%d)"
+    1281                    "真的要更新?"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1200                    "图层查看器"
+    1201                    "卷轴查看器"
+    1202                    "色盘查看器"
+    1203                    "内存查看器"
+    1204                    "内存监视"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1184                    "游戏修改"
+    1185                    "修改代码"
+    1186                    "开启金手指"
+    1187                    "关闭金手指"
+    1188                    "金手指"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1168                    "主声道 静音(切换)"
+    1169                    "放波1 静音(切换)"
+    1170                    "放波2 静音(切换)"
+    1171                    "三角波 静音(切换)"
+    1172                    "杂音 静音(切换)"
+    1173                    "DPCM 静音(切换)"
+    1174                    "特殊音效 CH1 静音(切换)"
+    1175                    "特殊音效 CH2 静音(切换)"
+    1176                    "特殊音效 CH3 静音(切换)"
+    1177                    "特殊音效 CH4 静音(切换)"
+    1178                    "特殊音效 CH5 静音(切换)"
+    1179                    "特殊音效 CH6 静音(切换)"
+    1180                    "特殊音效 CH7 静音(切换)"
+    1181                    "特殊音效 CH8 静音(切换)"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1152                    "全屏幕(切换)"
+    1153                    "显示帧数(切换)"
+    1154                    "TV外观纠正(切换)"
+    1155                    "TV帧频显示(切换)"
+    1156                    "模式TV模式(切换)"
+    1157                    "显示全部240线(切换)"
+    1158                    "不限制前景(切换)"
+    1159                    "同步显示(切换/全屏幕)"
+    1160                    "适应屏幕(切换/全屏幕)"
+    1161                    "左侧校正(锁定)"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1136                    "x1"
+    1137                    "x2"
+    1138                    "x3"
+    1139                    "x4"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1120                    "截图"
+    1127                    "影片信息"
+    1128                    "播放影片"
+    1129                    "录制影片"
+    1130                    "影片剪辑"
+    1135                    "停止播放"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1104                    "弹出磁盘"
+    1105                    "磁盘 1 A面"
+    1106                    "磁盘 1 B面"
+    1107                    "磁盘 2 A面"
+    1108                    "磁盘 2 B面"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1088                    "存盘点 0"
+    1089                    "存盘点 1"
+    1090                    "存盘点 2"
+    1091                    "存盘点 3"
+    1092                    "存盘点 4"
+    1093                    "存盘点 5"
+    1094                    "存盘点 6"
+    1095                    "存盘点 7"
+    1096                    "存盘点 8"
+    1097                    "存盘点 9"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1072                    "即时读档"
+    1073                    "即时存档"
+    1074                    "存盘点 +1"
+    1075                    "存盘点 -1"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1056                    "HW 重置"
+    1057                    "SW 重置"
+    1058                    "暂停(切换)"
+    1059                    "限制模式(切换)"
+    1060                    "跳帧自动"
+    1061                    "跳帧 +1"
+    1062                    "跳帧 -1"
+    1063                    "当次(暂停)"
+    1064                    "限制"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1040                    "打开"
+    1041                    "取消"
+    1044                    "修改"
+    1045                    "ROM 信息"
+    1046                    "录音为 WAV"
+    1048                    "联网"
+    1049                    "断开"
+    1055                    "退出"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1024                    "-按任意键-"
+    1025                    "类型"
+    1026                    "按键 1"
+    1027                    "按键 2"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    560                     "描绘类型 1"
+    561                     "描绘类型 2"
+    562                     "描绘类型 3"
+    563                     "描绘类型 4(默认)"
+    564                     "Tile"
+    565                     "H-SYNC"
+    566                     "CLOCK"
+    567                     "NTSC"
+    568                     "PAL"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    544                     "设置 1"
+    545                     "设置 2"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    528                     "无"
+    529                     "低通滤波器 1"
+    530                     "低通滤波器 2"
+    531                     "低通滤波器 3"
+    532                     "低通滤波器 4"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    512                     "空闲"
+    513                     "最低"
+    514                     "低"
+    515                     "普通"
+    516                     "高"
+    517                     "最高"
+    518                     "实时(危险)"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    288                     "打开修改代码"
+    289                     "保存金手指档"
+    290                     "打开金手指"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    272                     "录制WAVE"
+    280                     "播放录像"
+    281                     "录像"
+    282                     "添加录像"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    256                     "打开ROM文件"
+    257                     "打开调色板文件"
+    258                     "选择文件夹"
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    48                      "断开连接."
+    49                      "网络错误."
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    32                      "请设置 Mapper 0 到 255."
+    33                      "因为这 NES 文件头是非法的,\n所以可能无法正常工作.\n是否执行?"
+    34                      "因为这录像的 CRC 存在差异,\n所以可能无法正常工作.\n是否载入?"
+    35                      "因为这录像的 CRC 存在差异,\n所以可能无法正常播放.\n是否执行?"
+    36                      "因为这录像的版本存在差异,\n所以可能无法正常播放.\n是否执行?"
+    37                      "因为这录像的版本太老了,无法播放."
+    38                      "因为这录像的 CRC 存在差异,\n所以可能无法正常进行剪辑操作.\n是否执行?"
+    39                      "因为这录像的版本存在差异,\n所以可能无法正常进行剪辑操作.\n是否执行?"
+    40                      "因为这录像的版本太老了,\n所以可能无法正常进行剪辑操作."
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    16                      "执行命令出错."
+    17                      "非支持格式."
+    18                      "NES硬件反常."
+    19                      "文件过小."
+    20                      "Mapper %d 无法支持."
+    21                      "非DISKSYS.ROM."
+    22                      "磁盘不支持."
+    23                      "非标准磁盘."
+END
+
+STRINGTABLE FIXED IMPURE 
+BEGIN
+    1                       "错误"
+    2                       "无法开始."
+    3                       "未知错误"
+    4                       "无法打开\n%s\n文件."
+    5                       "读取文件失败."
+    6                       "写入文件失败."
+    7                       "超出内存范围."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
